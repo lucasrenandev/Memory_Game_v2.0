@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------------------CSS links---------------------------------->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="hero">
+        <main class="game-container">
+            <div class="counter-box">
+                <h3>Time: <span class="counter"></span></h3>
+                <div class="col">
+                    <p>Errors: <span class="errors">0</span></p>
+                    <p>Hits: <span class="hits">0</span></p>
+                </div><!--end col-->
+            </div><!--end counter box-->
+            <figure class="image-box"></figure>
+            <button type="button" class="start-btn btn">Start</button>
+        </main><!--end game container-->
+        <div class="popup-container">
+            <div class="content">
+                <h3>Game Over</h3>
+                <p><span class="seconds"></span></p>
+                <p><span class="total-errors"></span></p>
+                <p><span class="total-hits"></span></p>
+                <div class="bx bx-x"></div>
+                <button type="button" class="refresh-btn btn">Refresh</button>
+            </div><!--end content-->
+        </div><!--end popup container-->
+    </section><!--end hero-->
+    <!---------------------------------JavaScript link---------------------------------->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
